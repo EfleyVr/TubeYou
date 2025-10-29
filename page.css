@@ -10,6 +10,8 @@ header{
 }
 
 header h1 a{
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: rgb(97, 26, 26);
     font-size: 100px;

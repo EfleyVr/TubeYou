@@ -94,13 +94,13 @@ footer{
 }
 
 @media (max-width: 500px){
-    body{
+    header p{
         font-size: 40%;
     }
-    /* header p{
-        font-size: 18px;
+    header h1 a img{
+        width: 60px;
     }
-    header h1 a{
-        font-size: 50px;
-    } */
+    header h1{
+        font-size: 40px;
+    }
 }

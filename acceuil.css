@@ -94,7 +94,7 @@ footer{
 }
 
 @media (max-width: 768px){
-    header {
-        font-size: 30%;
+    header p{
+        font-size: 50%;
     }
 }

@@ -61,6 +61,7 @@ header p{
 }
 
 .btn{
+    font-size: 15px;
     cursor: pointer;
     background-color: rgb(97, 26, 26);
     padding: 5px 10px;
@@ -112,10 +113,10 @@ footer{
         padding: 15px 5px;
     }
     .btn{
-        padding: 2.5px 5px;
-        font-size: 85%;
+        padding: 3px 5px;
+        font-size: 90%;
     }
     footer{
-        font-size: 15px;
+        font-size: 10px;
     }
 }

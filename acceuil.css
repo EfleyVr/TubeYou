@@ -11,7 +11,9 @@ header{
 
 header h1 a{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: rgb(97, 26, 26);
     font-size: 100px;
@@ -32,7 +34,7 @@ header p{
 .tubeuryou-presentation{
     text-align: center;
     border: 5px double rgb(100, 26, 26);
-    padding: 15px;
+    padding: 15px 15px;
     margin: 15px auto;
     width: 300px;
     background-color: rgb(15, 15, 15);
@@ -95,12 +97,25 @@ footer{
 
 @media (max-width: 500px){
     header p{
-        font-size: 40%;
+        font-size: 12px;
     }
     header h1 a img{
-        width: 60px;
+        width: 25%;
     }
-    header h1{
-        font-size: 40px;
+    header h1 a{
+        font-size: 50px;
+    }
+    .navigation{
+        font-size: 65%;
+    }
+    .tubeuryou-presentation{
+        padding: 15px 5px;
+    }
+    .btn{
+        padding: 2.5px 5px;
+        font-size: 85%;
+    }
+    footer{
+        font-size: 15px;
     }
 }

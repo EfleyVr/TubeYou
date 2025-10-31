@@ -12,6 +12,7 @@ header{
 header h1 a{
     display: flex;
     justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: rgb(97, 26, 26);
     font-size: 100px;
@@ -137,4 +138,37 @@ footer{
     font-size: 25px;
     background-color: rgb(31, 31, 31);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 500px){
+    header p{
+        font-size: 12px;
+    }
+    header h1 a img{
+        width: 25%;
+    }
+    header h1 a{
+        font-size: 50px;
+    }
+    .presentation{
+        font-size: 15px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    .description p{
+        font-size: 16px;
+    }
+    .illustration p{
+        font-size: 16px;
+    }
+    .illustration a img{
+        width: 200px;
+    }
+    .illustration{
+        padding: 15px 25px;
+    }
+    footer{
+        font-size: 15px;
+    }
 }

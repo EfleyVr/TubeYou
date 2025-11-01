@@ -1,0 +1,14 @@
+.fichier_python{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.telecharger{
+    border: 4px double rgb(117, 19, 19);
+    padding: 10px 50px;
+    margin: 15px;
+    background-color: rgb(39, 39, 39);
+}
